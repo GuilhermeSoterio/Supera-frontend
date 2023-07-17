@@ -79,7 +79,7 @@ return (
 
                             <div className="box-input">
                                 <label className="label-input">Nome operador transacionado</label>
-                                <input type="text" className="inputs" value={search} onChange={(e) => setSearch(e.target.value)}></input>
+                                <input data-testid="nome-operador" type="text" className="inputs" value={search} onChange={(e) => setSearch(e.target.value)}></input>
                             </div>
                             
                         </div>
