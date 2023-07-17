@@ -1,0 +1,62 @@
+body {
+    background: #ededed;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.button-pesquisar{
+    height: 40px;
+    width: 100px;
+}
+      
+.home-subtitle {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding-top: 50px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.label-input {
+    display: flex;
+    align-items: baseline;
+}
+
+.inputs {
+    height: 40px;
+    width: 250px;
+    margin-top: 10px;
+}
+
+.box-input {
+    width: 250px;
+}
+
+.centralizar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.pesquisar{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.home-container{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.custom-table-row {
+    height: 6px;
+}
